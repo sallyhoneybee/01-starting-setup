@@ -1,8 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 
 import "./ExpenseItem.css";
 import ExpenseDate from "./ExpenseDate";
 import Card from "../UI/Card";
+
+// Stateless component
 
 function ExpenseItem(props) {
   // assign an initial value for the state passed as an argument that will only evaluated once
